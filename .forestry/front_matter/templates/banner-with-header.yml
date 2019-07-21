@@ -1,0 +1,30 @@
+---
+label: banner-with-header
+hide_body: false
+fields:
+- type: textarea
+  name: text
+  label: banner text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: true
+- type: file
+  label: background image
+  name: banner-pic
+- type: text
+  label: button text
+  name: button-text
+  description: 'the text inside the button'
+- type: text
+  label: button link
+  name: button-path
+- name: link
+  label: nav links
+  type: list
+  config:
+    use_select: false
+    min:
+    max:
+  description: 'place your headings here to have them stack down'

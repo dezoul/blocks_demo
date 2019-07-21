@@ -13,6 +13,9 @@ fields:
   - footer-contact-form
   - banner-1
   - banner-2
+  - banner-3
+  - banner-with-header
+
 - type: text
   name: layout
   label: layout
