@@ -11,3 +11,11 @@ fields:
 - type: file
   label: background image
   name: banner-pic
+- name: heading-list
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: headings
+  description: 'place your headings here to '
