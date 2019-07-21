@@ -11,6 +11,8 @@ fields:
   - banner
   - 2-colum-pic-then-text
   - footer-contact-form
+  - banner-1
+  - banner-2
 - type: text
   name: layout
   label: layout
