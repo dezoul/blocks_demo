@@ -1,0 +1,14 @@
+---
+label: 2-colum-text-then-pic
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: sub-heading
+  label: sub-heading
+- type: file
+  label: background image
+  name: banner-pic
