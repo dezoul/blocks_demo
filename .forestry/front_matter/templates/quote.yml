@@ -1,7 +1,6 @@
 ---
 label: quote
 hide_body: false
-is_partial: true
 fields:
 - type: textarea
   label: text

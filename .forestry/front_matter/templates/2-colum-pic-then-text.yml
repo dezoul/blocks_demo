@@ -1,7 +1,6 @@
 ---
 label: 2-colum-text-then-pic
 hide_body: false
-is_partial: true
 fields:
 - type: text
   name: title
