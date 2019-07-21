@@ -1,0 +1,18 @@
+---
+label: quote
+hide_body: false
+is_partial: true
+fields:
+- type: textarea
+  label: text
+  name: text
+  description: write the quote here
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+- type: text
+  name: author
+  label: author
+  config:
+    required: true

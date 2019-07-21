@@ -1,0 +1,59 @@
+---
+layout: default
+title: Blog Page
+meta-description:
+meta-keywords:
+featured-image_path:
+---
+
+<section class="padded">
+  <h1 class="centered"> Latest on the blog </h1>
+
+  <div class="grid blog-loop">
+
+    {% for post in site.posts limit: 6 %}
+        {% include post-loop-item.html %}
+    {% endfor %}
+
+  </div>
+  <div class="centered">
+    <!-- This links to the archive of blog posts -->
+    <a href="/archive" class="button"> See More </a>
+  </div>
+</section>
+
+<section class="padded">
+  <h1 class="centered"> Alternative Display  </h1>
+
+  <div class="blog-loop">
+
+    {% for post in site.posts limit: 6 %}
+        {% include post-loop-item-2.html %}
+    {% endfor %}
+
+  </div>
+  <div class="centered">
+    <!-- This links to the archive of blog posts -->
+    <a href="/archive" class="button"> See More </a>
+  </div>
+</section>
+
+
+
+<!-- this section is an example of how we output the travel posts -->
+<section class="padded light-bg">
+  <h1 class="centered"> Latest travel posts  </h1>
+  <p class="centered"> This is how you add a list of blog posts from a particular category to one or your pages </p>
+
+  <div class="grid blog-loop">
+
+    {% for post in site.categories.travel limit: 6 %}
+        {% include post-loop-item.html %}
+    {% endfor %}
+
+  </div>
+  <div class="centered">
+    <!-- This links to the archive of blog posts -->
+    <a href="/archives/travel" class="button"> See More </a>
+  </div>
+</section>

@@ -1,0 +1,21 @@
+---
+label: footer-contact-form
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: text
+  label: text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: text
+  name: email
+  label: email
+  description: this is your email theat you want the form to send info to
+  config:
+    required: true

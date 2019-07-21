@@ -1,0 +1,19 @@
+---
+label: 2-colum-pic-then-text
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: text
+  label: text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: false
+- type: file
+  label: picture
+  name: pic

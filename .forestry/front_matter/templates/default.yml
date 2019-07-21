@@ -1,0 +1,21 @@
+---
+label: default
+hide_body: false
+is_partial: false
+fields:
+- type: blocks
+  name: blocks
+  label: sections
+  template_types:
+  - 2-colum-text-then-pic
+  - quote
+  - banner
+  - 2-colum-pic-then-text
+  - footer-contact-form
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: default
+pages:
+- index.html

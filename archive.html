@@ -1,0 +1,18 @@
+---
+layout: default
+title: blog
+---
+
+<section class="padded">
+  <h1 class="centered"> Latest on the blog </h1>
+  <p class="centered"> This page will display the 50 latest blog posts. </p>
+
+  <div class="grid blog-loop">
+
+    {% for post in site.categories[page.category] %}
+        {% include post-loop-item.html %}
+    {% endfor %}
+
+  </div>
+
+</section>

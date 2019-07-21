@@ -1,0 +1,23 @@
+---
+label: banner
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: sub-title
+  label: sub-title
+- type: color
+  name: text-color
+  config:
+    color_format: Hex
+    required: true
+  label: text-color
+- type: file
+  name: pic
+  label: background image
+  config:
+    maxSize: '500'
+  default: "/uploads/header.jpg"
