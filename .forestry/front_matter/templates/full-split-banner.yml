@@ -1,0 +1,15 @@
+---
+label: full-split-banner
+hide_body: false
+fields:
+- type: textarea
+  name: text
+  label: banner text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: true
+- type: file
+  label: background image
+  name: banner-pic
