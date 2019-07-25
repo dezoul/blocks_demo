@@ -15,7 +15,6 @@ fields:
   - banner-2
   - banner-3
   - banner-with-header
-
 - type: text
   name: layout
   label: layout

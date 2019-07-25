@@ -16,7 +16,7 @@ fields:
 - type: text
   label: button text
   name: button-text
-  description: 'the text inside the button'
+  description: the text inside the button
 - type: text
   label: button link
   name: button-path
@@ -25,6 +25,6 @@ fields:
   type: list
   config:
     use_select: false
-    min:
-    max:
-  description: 'place your headings here to have them stack down'
+    min: 
+    max: 
+  description: place your headings here to have them stack down
