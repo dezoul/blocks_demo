@@ -23,4 +23,5 @@ fields:
   hidden: true
   default: default
 pages:
+- test.md
 - index.html
