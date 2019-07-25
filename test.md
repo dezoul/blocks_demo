@@ -4,11 +4,15 @@ blocks:
 - template: banner-with-header
   text: bob
   banner-pic: ''
-  links: []
-- template: banner-with-header
-  text: dave
-  banner-pic: ''
-  links: []
+  links:
+  - template: link
+    text: bob
+    link: dav
+    classes: ''
+  - template: link
+    text: dave
+    link: dave
+    classes: ''
 published: false
 
 ---
