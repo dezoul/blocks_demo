@@ -3,3 +3,16 @@ permalink: /:year/:title
 collections:
   archives:
     output: true
+
+
+atom:
+  buildCommand:
+    - jekyll
+    - serve
+    - --option
+    - --this
+  buildEnv:
+    JEKYLL_ENV: development
+  postDirs:
+    - _newsletters
+  defaultPostDir: _drafts

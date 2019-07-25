@@ -6,15 +6,11 @@
       </a>
     </div>
     <nav class="col-8-middle right">
-      
-      <a href="#"> Link </a>
-      <a href="#"> Link </a>
-      <a href="#"> Link </a>
-      <a href="#"> Link </a>
+{% for link in block.links}
+  <a href="{{link.text}}" class="{{link.classes}}">{{link.text}}</a>
     </nav>
   </header>
   <div class="col-6_sm-12-middle centered">
-    <h2 class="big-bold"> This this a heading </h2>
-    <h3 class="not-bold"> This is a sub-heading </h3>
+    {% block.text %}
   </div>
 </section>
