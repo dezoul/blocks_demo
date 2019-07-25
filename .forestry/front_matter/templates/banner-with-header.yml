@@ -13,18 +13,11 @@ fields:
 - type: file
   label: background image
   name: banner-pic
-- type: text
-  label: button text
-  name: button-text
-  description: the text inside the button
-- type: text
-  label: button link
-  name: button-path
-- name: link
-  label: nav links
-  type: list
+- name: links
+  type: blocks
+  label: links
+  template_types:
+  - link
   config:
-    use_select: false
     min: 
     max: 
-  description: place your headings here to have them stack down
