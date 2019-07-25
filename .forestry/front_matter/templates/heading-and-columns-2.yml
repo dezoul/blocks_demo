@@ -1,0 +1,15 @@
+---
+label: heading-and-text-columns-2
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: text
+  label: text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: false

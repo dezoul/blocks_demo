@@ -6,11 +6,12 @@
       </a>
     </div>
     <nav class="col-8-middle right">
-{% for link in block.links}
+{% for link in block.links %}
   <a href="{{link.text}}" class="{{link.classes}}">{{link.text}}</a>
+  {% endfor %}
     </nav>
   </header>
   <div class="col-6_sm-12-middle centered">
-    {% block.text %}
+    {{block.text}}
   </div>
 </section>

@@ -1,0 +1,12 @@
+---
+label: banner-2
+hide_body: false
+fields:
+- name: sections
+  type: blocks
+  label: sections
+  template_types:
+  - image-text-block
+  config:
+    min:
+    max:

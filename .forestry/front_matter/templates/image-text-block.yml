@@ -1,0 +1,15 @@
+---
+label: heading-and-text-columns
+hide_body: false
+fields:
+- type: file
+  label: background image
+  name: banner-pic
+- type: textarea
+  name: text
+  label: text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: false

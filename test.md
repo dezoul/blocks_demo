@@ -13,6 +13,6 @@ blocks:
     text: dave
     link: dave
     classes: ''
-published: false
+published: true
 
 ---

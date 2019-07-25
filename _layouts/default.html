@@ -5,8 +5,11 @@
 </head>
 <body id="body">
 
-  {% include site-header.html %}
 
+
+  {% for block in page.blocks %}
+  {% include {{block.template | append: ".html"}} %}
+  {% endfor %}
   {{content}}
 
   {% include site-footer.html %}
