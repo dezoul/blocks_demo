@@ -19,3 +19,4 @@ fields:
   description: the text inside the button
 - type: text
   name: button-path
+  label: button text
