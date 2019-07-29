@@ -1,0 +1,15 @@
+---
+label: icon-grid
+hide_body: false
+fields:
+- type: text
+  label: title
+  name: title
+- name: sec
+  type: blocks
+  label: icons
+  template_types:
+  - Icon
+  config:
+    min:
+    max:

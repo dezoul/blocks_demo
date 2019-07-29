@@ -1,0 +1,16 @@
+---
+label: Testimonial Cards Column
+hide_body: false
+fields:
+- type: text
+  name: author
+  label: author
+- type: text
+  name: comapny
+  label: comapny
+- type: text
+  name: para
+  label: paragraph
+- type: file
+  label: background image
+  name: pic

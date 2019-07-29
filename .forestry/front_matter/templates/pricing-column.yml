@@ -1,0 +1,19 @@
+---
+label: Testimonial Cards Column
+hide_body: false
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: price
+  label: price
+- type: list
+  name: bullets points
+  label: bullet
+- type: text
+  name: button-text
+  label: button text
+- type: text
+  name: button-link
+  label: button link

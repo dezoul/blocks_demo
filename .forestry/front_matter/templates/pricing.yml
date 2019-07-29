@@ -1,0 +1,15 @@
+---
+label: pricing
+hide_body: false
+fields:
+- type: text
+  label: title
+  name: title
+- name: sec
+  type: blocks
+  label: col
+  template_types:
+  - pricing-column
+  config:
+    min:
+    max:

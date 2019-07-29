@@ -1,0 +1,16 @@
+---
+label: hover-item
+hide_body: false
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: role
+  label: role
+- type: file
+  name: pic
+  label: background image
+  config:
+    maxSize: '500'
+  default: "/uploads/header.jpg"

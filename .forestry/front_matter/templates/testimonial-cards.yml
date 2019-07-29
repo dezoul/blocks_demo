@@ -1,0 +1,15 @@
+---
+label: data-grid
+hide_body: false
+fields:
+- type: text
+  label: title
+  name: title
+- name: sec
+  type: blocks
+  label: col
+  template_types:
+  - testimonial-cards-column
+  config:
+    min:
+    max:

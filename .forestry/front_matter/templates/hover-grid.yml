@@ -1,0 +1,20 @@
+---
+label: data-grid
+hide_body: false
+fields:
+- type: textarea
+  label: pre-grid text
+  name: text
+  description: text above the grid
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+- name: sec
+  type: blocks
+  label: col
+  template_types:
+  - hover-item
+  config:
+    min:
+    max:

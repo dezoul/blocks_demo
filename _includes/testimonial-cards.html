@@ -1,0 +1,16 @@
+<section class="light-bg centered padded">
+  <h2> {{block.title}} </h2>
+  <div class="grid padded-1">
+
+    {% for col in blocks.col %}
+    <div class="col-4_sm-12 padded-1">
+      <div class="card light-bg">
+        <img src="{{col.pic}}" class="profile">
+        <p class="author"> {{col.author}} </p>
+        <p class="company"> {{col.company}} </p>
+        <p>{{col.para}}</p>
+      </div>
+    </div>
+  </div>
+
+</section>

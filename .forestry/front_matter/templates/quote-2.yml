@@ -10,3 +10,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
+- type: text
+  name: author
+  label: author
+  config:
+    required: true

@@ -1,0 +1,20 @@
+
+<section class="padded centered">
+  <div class="">
+    {% block.text %}
+  </div>
+  <div class="grid padded-1">
+  {% for item in block.col %}
+    <div class="col-4_sm-12 padded-1">
+      <div class="hover-container" style="background-image:url('{item.pic}')">
+        <div class="hover-overlay">
+          <div class="hover-inner">
+            <h3> {{item.name}} </h3>
+            <p> {{item.role}} </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
