@@ -1,7 +1,10 @@
 ---
-label: hover-grid
+label: clickable-grid
 hide_body: false
 fields:
+- type: text
+  name: link
+  label: link
 - type: textarea
   label: pre-grid text
   name: text

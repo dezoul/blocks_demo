@@ -1,0 +1,18 @@
+
+<section class="padded centered">
+  <h2> Our Services </h2>
+  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+  <div class="grid padded-1">
+    {% for sec in block.col %}
+      <div class="col-4_sm-12 padded-1">
+        <a href="{{sec.link}}" class="clickable-box bg-image" style="background-image:url('{{sec.pic}}')">
+          <div class="overlay padded light-text">
+            {{sec.text}}
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+
+  </div>
+
+</section>

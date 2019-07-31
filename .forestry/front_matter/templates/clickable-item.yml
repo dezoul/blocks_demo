@@ -1,0 +1,20 @@
+---
+label: clickable-item
+hide_body: false
+fields:
+- type:
+
+- type: textarea
+  label: text overlay
+  name: text
+  description: text that apperes
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+- type: file
+  name: pic
+  label: background image
+  config:
+    maxSize: '500'
+  default: "/uploads/header.jpg"
