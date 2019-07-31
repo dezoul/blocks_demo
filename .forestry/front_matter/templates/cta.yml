@@ -1,0 +1,11 @@
+---
+label: cta
+hide_body: false
+fields:
+- type: textarea
+  label: cta text
+  name: text
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown

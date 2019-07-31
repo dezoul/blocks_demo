@@ -1,0 +1,10 @@
+<section class="centered padded">
+{{block.text}}
+
+  <form class="email-signup" action="https://formspree.io/{{block.email}}" method="POST">
+    <input type="text" name="name" placeholder="Your Name">
+    <input type="email" name="_replyto" placeholder="Your Email">
+    <input type="submit" value="Send" class="button-solid">
+  </form>
+
+</section>

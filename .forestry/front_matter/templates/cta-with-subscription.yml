@@ -1,0 +1,19 @@
+---
+label: cta
+hide_body: false
+fields:
+- type: textarea
+  label: cta text
+  name: text
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+- type: text
+  label: email
+  name: Email
+  description: the email adress that you want the subscription form to go to
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
