@@ -1,0 +1,10 @@
+---
+label: single-pic
+hide_body: false
+fields:
+- type: file
+  label: picture
+  name: picture
+- type: text
+  name: text
+  label: text description of logo

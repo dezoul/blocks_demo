@@ -1,0 +1,14 @@
+---
+label: responsive-videos
+hide_body: false
+fields:
+- type: textarea
+  label: text
+  name: text
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+- type: text
+  name: youtube
+  label: youtube enbed

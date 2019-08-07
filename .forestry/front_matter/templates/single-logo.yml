@@ -1,0 +1,10 @@
+---
+label: heading-and-text-columns
+hide_body: false
+fields:
+- type: file
+  label: logo
+  name: pic
+- type: text
+  name: text
+  label: text description of logo

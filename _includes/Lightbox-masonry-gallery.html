@@ -1,0 +1,16 @@
+
+<section class="padded centered">
+
+{{block.text}}
+
+    <div class="popup-gallery masonry">
+{% for pic in block.pictures}
+      <a class="item" href="{{pic.picture}}" title="{{pic.text}}">
+        <img src='{{pic.picture}}'>
+      </a>
+{% endfor %}
+
+
+    </div>
+
+</section>

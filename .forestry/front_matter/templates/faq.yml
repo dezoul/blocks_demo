@@ -1,19 +1,19 @@
 ---
-label: logo-grid
+label: faq
 hide_body: false
 fields:
 - type: textarea
-  label: cta text
+  label: text
   name: text
   config:
     wysiwyg: false
     schema:
       format: markdown
 - type: block
-  name: logo
-  label: logo's
+  name: qna
+  label: questions and answers
   template_types:
-    - single-logo
+    - single-qna
   config:
     min:
     max:

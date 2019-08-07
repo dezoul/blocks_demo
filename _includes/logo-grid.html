@@ -4,23 +4,9 @@
 {{block.text}}
 
     <div class="grid-center padded-1">
-      {% for pic in block.pics %}
+      {% for logo in block.pics %}
       <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
+        <img src="{{logo.pic}}" alt="{{logo.text}}">
       </div>
       {% endfor %}
-
-
-      <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
-      </div>
-      <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
-      </div>
-      <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
-      </div>
-      <div class="col-2_sm-4_xs-6">
-        <img src="/images/logo.webp">
-      </div>
     </div>

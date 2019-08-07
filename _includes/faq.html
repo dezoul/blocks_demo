@@ -1,0 +1,13 @@
+
+<section class="padded">
+
+{{block.text}}
+
+  <!-- dl stands for description list, with a description title and a description description -->
+  <dl class="accordion light-bg padded-1">
+    {% for item in block.qna %}
+      <dt><a href="">{{item.q}}</a></dt>
+      <dd>{{item.a}}</dd>
+    {% endfor %}
+  </dl>
+</section>

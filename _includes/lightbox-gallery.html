@@ -1,0 +1,14 @@
+
+<section class="padded centered">
+
+ {{block.text}}
+
+    <div class="popup-gallery grid-center padded-1">
+      {% for pic in block.pic %}
+      <a class="col-3_sm-6_xs-12" href="{{pic.picture}}" title="{{pic.text}}">
+        <div class="bg-image" style="background-image:url('{{pic.picture}}')"></div>
+      </a>
+      {% endfor %}
+    </div>
+
+</section>

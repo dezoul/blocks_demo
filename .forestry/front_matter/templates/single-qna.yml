@@ -1,0 +1,14 @@
+---
+label: single-pic
+hide_body: false
+fields:
+- type: text
+  label: question
+  name: q
+- type: textarea
+  label: answer
+  name: a
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
