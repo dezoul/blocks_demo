@@ -9,7 +9,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-- type: block
+- type: blocks
   name: logo
   label: logo's
   template_types:

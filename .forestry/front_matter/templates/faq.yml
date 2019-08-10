@@ -9,7 +9,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-- type: block
+- type: blocks
   name: qna
   label: questions and answers
   template_types:
