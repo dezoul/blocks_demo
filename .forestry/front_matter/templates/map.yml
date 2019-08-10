@@ -1,0 +1,7 @@
+---
+label: single-pic
+hide_body: false
+fields:
+- type: text
+  label: google map
+  name: map

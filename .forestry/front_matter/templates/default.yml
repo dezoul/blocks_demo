@@ -6,17 +6,36 @@ fields:
   name: blocks
   label: sections
   template_types:
-  - 2-colum-text-then-pic
-  - quote
-  - banner
-  - 2-colum-pic-then-text
-  - footer-contact-form
   - banner-1
   - banner-2
   - banner-3
-  - banner-with-header
+  - banner-fixed
   - split-banner
   - full-split-banner
+  - banner-with-header
+  - clickable-grid
+  - cta-with-subscription
+  - cta
+  - data-grid
+  - faq
+  - heading-and-text-columns
+  - heading-and-columns-2
+  - hover-grid
+  - icon-grid
+  - image-text-block
+  - image-text-grid
+  - image-text-grid-2
+  - lightbox-gallery
+  - lightbox-masonry-gallery
+  - logo-grid
+  - map
+  - narrow-text
+  - pricing
+  - quote
+  - quote-2
+  - responsive-video
+  - responsive-vertical-video
+  - simple-text
 - type: text
   name: layout
   label: layout
