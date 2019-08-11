@@ -1,11 +1,14 @@
 
 <section class="padded centered">
-  <h2>{{block.title}} <</h2>
+  <h2>{{block.title}} </h2>
   <div class="grid padded-1">
     {% for sec in block.sec %}
     <div class="col-4_sm-12 padded-1">
       <span class="featured-stat"> {{sec.stat}}</span>
-      {{sec.text}}
+      <div class="">
+        {{sec.text}}
+      </div>
+
     </div>
     {% endfor %}
   </div>

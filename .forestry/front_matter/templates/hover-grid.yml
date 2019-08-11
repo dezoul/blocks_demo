@@ -10,11 +10,11 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-- name: sec
+- name: col
   type: blocks
-  label: col
+  label: column
   template_types:
   - hover-item
   config:
-    min: 
-    max: 
+    min:
+    max:
