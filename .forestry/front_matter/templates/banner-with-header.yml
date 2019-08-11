@@ -8,7 +8,7 @@ fields:
   config:
     wysiwyg: true
     schema:
-      format: markdown
+      format: html
     required: true
 - type: file
   label: background image
@@ -19,5 +19,5 @@ fields:
   template_types:
   - link
   config:
-    min: 
-    max: 
+    min:
+    max:

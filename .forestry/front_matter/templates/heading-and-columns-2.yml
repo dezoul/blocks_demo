@@ -8,6 +8,5 @@ fields:
 - type: blocks
   name: columns
   label: columns
-  required: false
   template_types:
   - single-column
