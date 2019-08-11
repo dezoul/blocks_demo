@@ -42,5 +42,6 @@ fields:
   hidden: true
   default: default
 pages:
+- temp.md
 - index.html
 - test.md
