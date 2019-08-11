@@ -11,6 +11,6 @@ fields:
       format: markdown
     required: false
 - type: text
-  name: size
-  label: col
+  name: col
+  label: size
   description: how big the colummn is out of 12. whole number only.
