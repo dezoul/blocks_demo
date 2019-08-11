@@ -1,5 +1,5 @@
 ---
-label: data-grid
+label: testimonial-cards
 hide_body: false
 fields:
 - type: text
@@ -11,5 +11,5 @@ fields:
   template_types:
   - testimonial-cards-column
   config:
-    min: 
-    max: 
+    min:
+    max:

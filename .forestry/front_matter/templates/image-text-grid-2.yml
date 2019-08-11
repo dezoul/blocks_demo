@@ -1,5 +1,5 @@
 ---
-label: banner-2
+label: image-text-grid-2
 hide_body: false
 fields:
 - name: sections
@@ -8,5 +8,5 @@ fields:
   template_types:
   - image-text-block
   config:
-    min: 
-    max: 
+    min:
+    max:

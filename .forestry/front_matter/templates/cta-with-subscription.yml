@@ -1,5 +1,5 @@
 ---
-label: cta
+label: cta-with-subscription
 hide_body: false
 fields:
 - type: textarea
