@@ -103,33 +103,11 @@ blocks:
   columns:
   - template: single-column
     text: |-
-      lorem
+      bob
 
-      adf
-
-      asdf
-
-      asdf
+      mulligan
   - template: single-column
-    text: |-
-      asdfsadfsdf
-
-      asdf
-
-      asdf
-
-      asdf
-  - template: single-column
-    text: |-
-      asdf\\asdf
-
-      sadf
-
-      asdf
-
-      as
-
-      dfasdf
+    text: bobo
 - template: hover-grid
   text: |2-
 
