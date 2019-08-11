@@ -103,13 +103,16 @@ blocks:
   columns:
   - template: single-column
     text: test
-    size: "4"
+    size: '4'
+    col: ''
   - template: single-column
     text: test
-    size: "3"
+    size: '3'
+    col: ''
   - template: single-column
     text: test
-    size: "5"
+    size: '5'
+    col: ''
 - template: hover-grid
   text: |2-
 
@@ -141,13 +144,16 @@ blocks:
     name: tim
     role: enchanter
 - template: icon-grid
-  title: ''
+  title: bob
   sec: []
 - template: image-text-grid
   sections:
   - template: image-text-block
-    banner-pic: ''
-    text: ''
+    banner-pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
+    text: bob
+  - template: image-text-block
+    banner-pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
+    text: dave
 - template: image-text-grid-2
   sections: []
 - template: lightbox-gallery
@@ -178,6 +184,15 @@ blocks:
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
       eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
       in culpa qui officia deserunt mollit anim id est laborum."
+  - template: single-pic
+    picture: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
+    text: ''
+  - template: single-pic
+    picture: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
+    text: ''
+  - template: single-pic
+    picture: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
+    text: ''
   - template: single-pic
     picture: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
     text: ''
