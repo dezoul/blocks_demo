@@ -102,7 +102,14 @@ blocks:
   title: dave
   columns:
   - template: single-column
-    text: text
+    text: test
+    size: "4"
+  - template: single-column
+    text: test
+    size: "3"
+  - template: single-column
+    text: test
+    size: "5"
 - template: hover-grid
   text: |2-
 
