@@ -9,7 +9,7 @@ fields:
   type: blocks
   label: icons
   template_types:
-  - Icon
+  - single-icon
   config:
-    min: 
-    max: 
+    min:
+    max:

@@ -10,6 +10,9 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
+- type: text
+  name: link
+  label: link
 - type: file
   name: pic
   label: background image

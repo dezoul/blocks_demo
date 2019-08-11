@@ -2,9 +2,6 @@
 label: clickable-grid
 hide_body: false
 fields:
-- type: text
-  name: link
-  label: link
 - type: textarea
   label: pre-grid text
   name: text
@@ -17,7 +14,7 @@ fields:
   type: blocks
   label: col
   template_types:
-  - hover-item
+  - clickable-item
   config:
-    min: 
-    max: 
+    min:
+    max:

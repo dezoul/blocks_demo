@@ -9,7 +9,7 @@ fields:
   type: blocks
   label: stats
   template_types:
-  - Icon
+  - icon
   config:
-    min: 
-    max: 
+    min:
+    max:
