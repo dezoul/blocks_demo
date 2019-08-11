@@ -1,0 +1,12 @@
+---
+label: single-column
+hide_body: false
+fields:
+- type: textarea
+  name: text
+  label: text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: false

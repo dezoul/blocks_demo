@@ -5,9 +5,11 @@ fields:
 - type: text
   name: title
   label: title
-- type: textarea
-  name: text
-  label: text
+- type: blocks
+  name: columns
+  label: columns
+  template_types:
+  - single-column
   config:
     wysiwyg: true
     schema:
