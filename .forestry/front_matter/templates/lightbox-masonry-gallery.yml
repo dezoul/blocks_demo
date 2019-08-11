@@ -13,7 +13,7 @@ fields:
   name: pic
   label: pictures
   template_types:
-    - single-pic
+  - single-pic
   config:
-    min:
-    max:
+    min: 
+    max: 

@@ -13,7 +13,7 @@ fields:
   name: qna
   label: questions and answers
   template_types:
-    - single-qna
+  - single-qna
   config:
-    min:
-    max:
+    min: 
+    max: 

@@ -13,7 +13,7 @@ fields:
   name: logo
   label: logo's
   template_types:
-    - single-logo
+  - single-logo
   config:
-    min:
-    max:
+    min: 
+    max: 

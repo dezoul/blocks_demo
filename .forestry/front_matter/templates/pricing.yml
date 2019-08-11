@@ -11,5 +11,5 @@ fields:
   template_types:
   - pricing-column
   config:
-    min:
-    max:
+    min: 
+    max: 
