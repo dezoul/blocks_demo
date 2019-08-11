@@ -102,12 +102,7 @@ blocks:
   title: dave
   columns:
   - template: single-column
-    text: |-
-      bob
-
-      mulligan
-  - template: single-column
-    text: bobo
+    text: text
 - template: hover-grid
   text: |2-
 
