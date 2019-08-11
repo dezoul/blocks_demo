@@ -32,10 +32,20 @@ blocks:
   text: bob
   banner-pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
 - template: full-split-banner
-  text: bob
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+    deserunt mollit anim id est laborum.
   banner-pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
 - template: banner-with-header
-  text: bob
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+    deserunt mollit anim id est laborum.
   banner-pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
   links:
   - template: link
@@ -52,10 +62,14 @@ blocks:
     classes: ''
 - template: clickable-grid
   sec:
-  - template: hover-item
-    pic: "/uploads/header.jpg"
-    name: ''
-    role: ''
+  - template: clickable-item
+    pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
+    text: bob
+    link: bob
+  - template: clickable-item
+    pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
+    text: tim
+    link: "/"
   text: |-
     bobadfasdfb
     fasdf
@@ -85,8 +99,37 @@ blocks:
   title: burce
   text: fancy bob
 - template: heading-and-columns-2
-  title: david
-  text: snob dave
+  title: dave
+  columns:
+  - template: single-column
+    text: |-
+      lorem
+
+      adf
+
+      asdf
+
+      asdf
+  - template: single-column
+    text: |-
+      asdfsadfsdf
+
+      asdf
+
+      asdf
+
+      asdf
+  - template: single-column
+    text: |-
+      asdf\\asdf
+
+      sadf
+
+      asdf
+
+      as
+
+      dfasdf
 - template: hover-grid
   text: |2-
 
@@ -104,6 +147,19 @@ blocks:
     pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
     name: thing
     role: so strange
+  col:
+  - template: hover-item
+    pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
+    name: bob
+    role: bober
+  - template: hover-item
+    pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
+    name: dave
+    role: dassa
+  - template: hover-item
+    pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
+    name: tim
+    role: enchanter
 - template: icon-grid
   title: ''
   sec: []

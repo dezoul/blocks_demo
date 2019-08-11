@@ -16,5 +16,5 @@ fields:
   template_types:
   - clickable-item
   config:
-    min:
-    max:
+    min: 
+    max: 

@@ -11,5 +11,5 @@ fields:
   template_types:
   - icon
   config:
-    min:
-    max:
+    min: 
+    max: 
