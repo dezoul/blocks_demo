@@ -11,5 +11,5 @@ fields:
   template_types:
   - testimonial-cards-column
   config:
-    min:
-    max:
+    min: 
+    max: 

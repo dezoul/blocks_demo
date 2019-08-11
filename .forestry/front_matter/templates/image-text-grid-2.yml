@@ -8,5 +8,5 @@ fields:
   template_types:
   - image-text-block
   config:
-    min:
-    max:
+    min: 
+    max: 
