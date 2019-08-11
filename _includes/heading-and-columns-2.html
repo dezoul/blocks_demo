@@ -3,7 +3,7 @@
   <h2 class="centered">{{block.title}}</h2>
   <div class="grid-center padded-1">
     {% for columns in block.columns %}
-    <div class="col-4_sm-12 padded-1">
+    <div class="col-{{columns.col}}_sm-12 padded-1">
       <p>{{columns.text}}</p>
     </div>
     {% endfor %}
