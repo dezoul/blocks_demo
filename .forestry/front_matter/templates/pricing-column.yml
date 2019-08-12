@@ -9,8 +9,8 @@ fields:
   name: price
   label: price
 - type: list
-  name: bullets points
-  label: bullet
+  name: bullet
+  label: bullets points
 - type: text
   name: button-text
   label: button text
