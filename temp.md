@@ -265,7 +265,16 @@ blocks:
     - time
     button-text: see less
     button-link: "/404"
-  col: []
+  col:
+  - template: pricing-column
+    name: bob
+    price: '99'
+    bullets points:
+    - drawing
+    - more fun
+    - fun
+    button-text: see more
+    button-link: "/bob"
 - template: quote
   text: |2-
 
