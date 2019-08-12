@@ -275,6 +275,15 @@ blocks:
     - fun
     button-text: see more
     button-link: "/bob"
+  - template: pricing-column
+    name: tim
+    price: '4'
+    bullets points:
+    - '4'
+    - '4'
+    - '4'
+    button-text: '4'
+    button-link: "/4"
 - template: quote
   text: |2-
 
