@@ -24,14 +24,7 @@ blocks:
   button-text: bob
   button-path: "/"
 - template: banner-fixed
-  text: |-
-    # obobOBO
-
-    ## bibaf
-
-    asdf
-
-    asdf
+  text: "# obobOBO<br> ## bibaf <br><br>asdf asdf"
   banner-pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
 - template: split-banner
   text: |-
