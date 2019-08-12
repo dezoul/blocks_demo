@@ -1,9 +1,11 @@
 
 <section class="padded centered">
+  <div class="">
+    {{block.text | markdownify}}
+  </div>
 
-{{block.text | markdownify}}
 
-    <div class="grid-center padded-1">
+    <div class="grid-spaceAround padded-1">
       {% for logo in block.logo %}
       <div class="col-2_sm-4_xs-6">
         <img src="{{logo.pic}}" alt="{{logo.text}}">

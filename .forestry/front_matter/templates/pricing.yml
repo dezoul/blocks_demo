@@ -5,11 +5,11 @@ fields:
 - type: text
   label: title
   name: title
-- name: sec
+- name: col
   type: blocks
-  label: col
+  label: service that you will offer 
   template_types:
   - pricing-column
   config:
-    min: 
-    max: 
+    min:
+    max:
