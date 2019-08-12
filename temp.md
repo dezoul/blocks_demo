@@ -20,9 +20,9 @@ blocks:
   button-path: "/"
 - template: banner-fixed
   text: |-
-    obobOBO
+    # obobOBO
 
-    bibaf
+    ## bibaf
 
     asdf
 
