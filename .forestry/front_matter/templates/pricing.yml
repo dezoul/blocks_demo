@@ -7,9 +7,9 @@ fields:
   name: title
 - name: col
   type: blocks
-  label: service that you will offer 
+  label: service that you will offer
   template_types:
   - pricing-column
   config:
-    min:
-    max:
+    min: 
+    max: 

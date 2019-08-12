@@ -153,7 +153,23 @@ blocks:
     role: enchanter
 - template: icon-grid
   title: bob
-  sec: []
+  sec:
+  - template: single-icon
+    fa-icon: dave
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+      in culpa qui officia deserunt mollit anim id est laborum.
+  - template: single-icon
+    fa-icon: bob
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+      in culpa qui officia deserunt mollit anim id est laborum.
 - template: image-text-grid
   sections:
   - template: image-text-block
@@ -251,6 +267,7 @@ blocks:
     - time
     button-text: see less
     button-link: "/404"
+  col: []
 - template: quote
   text: |2-
 
@@ -260,16 +277,6 @@ blocks:
 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   author: dave
-- template: responsive-video
-  text: |2-
-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  youtube: <iframe src="https://www.youtube.com/embed/jG7dSXcfVqE" frameborder="0"
-    allowfullscreen=""></iframe>
-- template: responsive-vertical-video
-  text: bob
-  youtube: <iframe src="https://www.youtube.com/embed/juA4PM1PlCQ" frameborder="0"
-    allowfullscreen=""></iframe>
 - template: simple-text
   text: |-
     loem dvae
@@ -283,5 +290,11 @@ blocks:
     asdf
 
     asdf
+- template: responsive-video
+  text: ''
+  youtube: ''
+- template: responsive-vertical-video
+  text: ''
+  youtube: ''
 
 ---
