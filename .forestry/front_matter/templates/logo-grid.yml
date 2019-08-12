@@ -6,7 +6,7 @@ fields:
   label: cta text
   name: text
   config:
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: markdown
 - type: blocks
@@ -15,5 +15,5 @@ fields:
   template_types:
   - single-logo
   config:
-    min: 
-    max: 
+    min:
+    max:
