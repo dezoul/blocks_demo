@@ -4,7 +4,7 @@
 
         {% for col in block.col %}
     <div class="col-4_sm-12 padded-1">
-      <div class="pricing card {% if col.featured == true %} featured {% endfor %}">
+      <div class="pricing card {% if col.featured == true %} featured {% endif %}">
         <p class="pricing-name"> {{col.name}} </p>
         <p class="price"> $18 </p>
         <ul class="no-bullets">
