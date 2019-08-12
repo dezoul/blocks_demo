@@ -275,6 +275,5 @@ blocks:
     asdf
 
     asdf
-published: false
 
 ---
