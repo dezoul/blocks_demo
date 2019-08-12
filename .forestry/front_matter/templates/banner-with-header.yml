@@ -19,5 +19,5 @@ fields:
   template_types:
   - link
   config:
-    min:
-    max:
+    min: 
+    max: 

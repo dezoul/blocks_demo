@@ -14,7 +14,12 @@ blocks:
   - 'bob '
   banner-pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
 - template: banner-3
-  text: "bob  \ndave  \ntim"
+  text: |-
+    bob
+
+    dave
+
+    tim
   banner-pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
   button-text: bob
   button-path: "/"
@@ -272,5 +277,6 @@ blocks:
     asdf
 
     asdf
+published: false
 
 ---
