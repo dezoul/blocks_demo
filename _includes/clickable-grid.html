@@ -1,7 +1,8 @@
 
 <section class="padded centered">
-  <h2> Our Services </h2>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+  <div class="">
+    {{block.text | markdownify}}
+  </div>
   <div class="grid padded-1">
     {% for sec in block.col %}
       <div class="col-4_sm-12 padded-1">

@@ -1,7 +1,7 @@
 
 <section class="padded centered">
 
-{{block.text}}
+{{block.text | markdownify}}
 
     <div class="grid-center padded-1">
       {% for logo in block.logo %}

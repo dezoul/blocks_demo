@@ -1,7 +1,7 @@
 
 <section class="padded centered">
 
-{{block.text}}
+{{block.text | markdownify}}
 
     <div class="popup-gallery masonry">
 {% for pic in block.pic %}
