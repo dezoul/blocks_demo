@@ -5,6 +5,11 @@ fields:
 - type: text
   name: name
   label: name
+- name: featured
+  type: boolean
+  label: featured
+  description: 'place determine if it has the yellow outline '
+  default: false
 - type: text
   name: price
   label: price
