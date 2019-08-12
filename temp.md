@@ -29,7 +29,12 @@ blocks:
     asdf
   banner-pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
 - template: split-banner
-  text: bob
+  text: |-
+    bob
+
+    dave
+
+    tim
   banner-pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
 - template: full-split-banner
   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
