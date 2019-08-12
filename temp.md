@@ -280,6 +280,7 @@ blocks:
     - '5'
     - ''
     - '5'
+    featured: true
   - template: pricing-column
     name: tim
     price: '4'
@@ -294,6 +295,17 @@ blocks:
     - '4'
     - '4'
     - '4'
+    featured: false
+  - template: pricing-column
+    name: albert
+    featured: true
+    price: '666'
+    bullet:
+    - '5'
+    - '5'
+    - '5'
+    button-link: '5'
+    button-text: '6'
 - template: quote
   text: |2-
 
