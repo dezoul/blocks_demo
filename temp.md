@@ -24,8 +24,13 @@ blocks:
   button-text: bob
   button-path: "/"
 - template: banner-fixed
-  text: "# obobOBO<br> ## bibaf <br><br>asdf asdf"
-  banner-pic: "/uploads/nathan-dumlao--ZRP3J0TJZ4-unsplash-2.jpg"
+  text: |-
+    # bob
+
+    ## dave
+
+    ### tim
+  banner-pic: ''
 - template: split-banner
   text: |-
     bob
@@ -270,6 +275,5 @@ blocks:
     asdf
 
     asdf
-published: false
 
 ---
