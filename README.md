@@ -1,0 +1,3 @@
+# modular-website
+
+## File Structure
