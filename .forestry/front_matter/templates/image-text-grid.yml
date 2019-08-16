@@ -4,9 +4,9 @@ hide_body: false
 fields:
 - name: sections
   type: blocks
-  label: sections
+  label: sec
   template_types:
   - image-text-block
   config:
-    min: 
-    max: 
+    min:
+    max:
