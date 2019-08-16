@@ -1,4 +1,20 @@
 ---
 label: blog-loop
 hide_body: false
-fields: []
+fields:
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: text
+  description: text befor the post grid
+- name: limit
+  type: text
+  config:
+    required: false
+  label: limit
+  description: how many post
