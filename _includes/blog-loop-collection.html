@@ -1,0 +1,38 @@
+<section>
+  <div class="">
+    {{block.text}}
+  </div>
+{% assign i = 1 %}
+
+{% assign collection = block.collection %}
+
+{% assign limit = block.limit %}
+
+{% for post in site.[collection] %}
+  {% assign checked = notUsed %}
+  {% for checker in used %}
+    {% if checker == post %}
+      {% assign checked = "skip" %}
+    {% endif %}
+  {% endfor %}
+  {% if checked == "skip" %}
+<!-- <p>didnt use {{post.title}}</p> -->
+  {% else %}
+
+    <a href="{{post.url}}">
+      <h1>{{post.title}}</h1>
+      <p class="center">{{post.categories}}</p>
+    </a>
+
+    {% assign link = post.url %}
+    {% assign this = site.posts | where: "url", link %}
+    {% assign used = used | concat: this  %}
+
+    {% assign i = i | plus:1 %}
+    {% if i > limit %}
+      {% break %}
+    {% endif %}
+  {% endif %}
+
+{% endfor %}
+</section>
