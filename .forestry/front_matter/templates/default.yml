@@ -37,12 +37,12 @@ fields:
   - responsive-video
   - responsive-vertical-video
   - simple-text
-
 - type: text
   name: layout
   label: layout
   hidden: true
   default: default
 pages:
+- blog.md
 - temp.md
 - index.html
