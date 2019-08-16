@@ -57,6 +57,7 @@
     margin-bottom: 0.8rem;
   }
 
+  h1  { font-size: 2.6rem;  }
   h2  { font-size: 2.2rem;  }
   h3  { font-size: 1.8rem;  }
   h4  { font-size: 1.4rem;  }
@@ -67,6 +68,8 @@
   }
 
   /* this makes sure that the last element in any container doesn't have margin-bottom */
+
+  h1:last-child,
   h2:last-child,
   h3:last-child,
   h4:last-child,
