@@ -42,6 +42,10 @@
   .light-bg     {  background-color: rgb(240, 240, 245);  }
   .featured-bg  {  background-color: #ffeaa7;             }
 
+  .flex-flip:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
   section:nth-child(odd){
     background-color: rgb(90, 90, 95);
     color:#fff;
@@ -664,7 +668,7 @@
   transition: all .35s;
 }
 
-/* NEED DANIELs HELP to stop auto popping back open, and make the thing twist */
+/* DANIELs HELPED to stop auto popping back open, and make the thing twist */
 .accordion dt a::after,
 input[type=checkbox] + label::after {
   content: "+";
@@ -698,6 +702,9 @@ input[type=checkbox]:checked + label::after, {
 
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px) {
+  .flex-flip > *:nth-child(2) {
+    flex-direction: column;
+  }
 
 } /* end media query */
 }
