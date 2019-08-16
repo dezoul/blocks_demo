@@ -2,7 +2,7 @@
 label: image-text-grid
 hide_body: false
 fields:
-- name: sec
+- name: sections
   type: blocks
   label: text and pic grid's
   template_types:
