@@ -10,6 +10,8 @@ fields:
   - banner-2
   - banner-3
   - banner-fixed
+  - blog-loop
+  - blog-loop-collection
   - split-banner
   - full-split-banner
   - banner-with-header
@@ -35,6 +37,7 @@ fields:
   - responsive-video
   - responsive-vertical-video
   - simple-text
+
 - type: text
   name: layout
   label: layout
