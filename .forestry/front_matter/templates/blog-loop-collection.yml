@@ -1,5 +1,5 @@
 ---
-label: blog-loop
+label: blog-loop-collection
 hide_body: false
 fields:
 - name: collection
