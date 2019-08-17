@@ -16,9 +16,9 @@ fields:
   type: number
   label: limit
   description: how many post to display
-  default: 0
+  default: 3
   required: true
   config:
-    min: 
-    max: 
-    step: 
+    min:
+    max:
+    step:
