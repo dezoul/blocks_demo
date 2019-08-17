@@ -4,7 +4,7 @@
   </div>
 {% assign i = 1 %}
 
-{% assign l = block.limit %}
+{% assign l = block.limit | to_integer  %}
 
 {% for post in site.posts %}
   {% assign checked = notUsed %}

@@ -4,9 +4,9 @@
   </div>
 {% assign i = 1 %}
 
-{% assign collection = block.collection %}
+{% assign collection = block.collection  %}
 
-{% assign limit = block.limit %}
+{% assign l = block.limit | to_integer  %}
 
 {% for post in site.[collection] %}
   {% assign checked = notUsed %}
