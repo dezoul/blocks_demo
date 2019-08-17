@@ -43,6 +43,6 @@ fields:
   hidden: true
   default: default
 pages:
-- blog.md
+- blog.html
 - temp.md
 - index.html

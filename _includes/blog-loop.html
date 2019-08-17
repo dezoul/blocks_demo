@@ -4,7 +4,7 @@
   </div>
 {% assign i = 1 %}
 
-{% assign limit = block.limit %}
+{% assign l = block.limit %}
 
 {% for post in site.posts %}
   {% assign checked = notUsed %}
@@ -27,7 +27,7 @@
     {% assign used = used | concat: this  %}
 
     {% assign i = i | plus:1 %}
-    {% if i > limit %}
+    {% if i > l %}
       {% break %}
     {% endif %}
   {% endif %}
