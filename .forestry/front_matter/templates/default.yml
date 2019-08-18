@@ -43,6 +43,5 @@ fields:
   hidden: true
   default: default
 pages:
-- blog.md
 - temp.md
 - index.html

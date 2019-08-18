@@ -13,8 +13,12 @@ fields:
   label: text
   description: text befor the post grid
 - name: limit
-  type: text
-  config:
-    required: false
+  type: number
   label: limit
-  description: how many post
+  description: how many post to display
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
