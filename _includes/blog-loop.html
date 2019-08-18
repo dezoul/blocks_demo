@@ -19,7 +19,7 @@
 
     <a href="{{post.url}}">
       <h1>{{post.title}}</h1>
-      <p class="center">{{post.categories}}</p>
+      <p class="center">{{post.categories | join: ' '}}</p>
     </a>
 
     {% assign link = post.url %}
