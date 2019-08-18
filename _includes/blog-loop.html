@@ -2,35 +2,44 @@
   <div class="">
     {{block.text}}
   </div>
-{% assign i = 1 %}
+  {% assign i = 1 %}
 
-{% assign l = block.limit | to_integer  %}
+  {% assign l = block.limit | to_integer  %}
+  <div class="grid">
 
-{% for post in site.posts %}
-  {% assign checked = notUsed %}
-  {% for checker in used %}
-    {% if checker == post %}
-      {% assign checked = "skip" %}
-    {% endif %}
-  {% endfor %}
-  {% if checked == "skip" %}
-<!-- <p>didnt use {{post.title}}</p> -->
-  {% else %}
+    {% for post in site.posts %}
+      {% assign checked = notUsed %}
+      {% for checker in used %}
+        {% if checker == post %}
+          {% assign checked = "skip" %}
+        {% endif %}
+      {% endfor %}
+      {% if checked == "skip" %}
+      <!-- <p>didnt use {{post.title}}</p> -->
+      {% else %}
+        <div class="col-4_md-12">
+          <a href="{{post.url}}">
+            <div class="blog-loop-pic" style="background-image:url('{{post.featured-image}}')"></div>
+            <h1>{{post.title}}</h1>
+            <p class="center">
+              {% for cat in post.categories %}
+                <span> {{cat}}</span>
+              {% endfor %}
+            </p>
+          </a>
+        </div>
 
-    <a href="{{post.url}}">
-      <h1>{{post.title}}</h1>
-      <p class="center">{{post.categories | join: ' '}}</p>
-    </a>
 
-    {% assign link = post.url %}
-    {% assign this = site.posts | where: "url", link %}
-    {% assign used = used | concat: this  %}
+        {% assign link = post.url %}
+        {% assign this = site.posts | where: "url", link %}
+        {% assign used = used | concat: this  %}
 
-    {% assign i = i | plus:1 %}
-    {% if i > l %}
-      {% break %}
-    {% endif %}
-  {% endif %}
+        {% assign i = i | plus:1 %}
+        {% if i > l %}
+          {% break %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
 
-{% endfor %}
+  </div>
 </section>
